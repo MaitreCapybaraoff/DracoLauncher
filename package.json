@@ -1,13 +1,13 @@
 {
-  "name": "helioslauncher",
-  "version": "2.2.1",
-  "productName": "Helios Launcher",
+  "name": "DracoLauncher",
+  "version": "1.0.0",
+  "productName": "Draco Launcher",
   "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
-  "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
+  "author": "Daniel Scalzi (https://github.com/dscalzi/), moddified by: DracoMC",
+  "license": "MIT",
+  "homepage": "https://github.com/MaitreCapybaraoff",
   "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issues"
+    "url": "https://github.com/MaitreCapybaraoff/DracoLauncher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -17,7 +17,8 @@
     "dist:win": "npm run dist -- -w",
     "dist:mac": "npm run dist -- -m",
     "dist:linux": "npm run dist -- -l",
-    "lint": "eslint --config .eslintrc.json ."
+    "lint": "eslint --config .eslintrc.json .",
+    "icon": "node build.js --icon=https://draco-smp.ovh/icon/icon.png"
   },
   "engines": {
     "node": "20.x.x"
@@ -40,12 +41,12 @@
     "toml": "^3.0.0"
   },
   "devDependencies": {
-    "electron": "^33.2.1",
+    "electron": "^38.1.0",
     "electron-builder": "^25.1.8",
     "eslint": "^8.57.1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/MaitreCapybaraoff/DracoLauncher.git"
   }
 }

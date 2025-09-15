@@ -73,6 +73,11 @@ jobs:
           release_name: "Release v${{ steps.package-version.outputs.version }}"
           draft: false
           prerelease: false
-          files: dist/**/*
+          files: |
+            dist/**/*.exe
+            dist/**/*.AppImage
+            dist/**/*.dmg
+            dist/**/*.zip
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -79,7 +79,7 @@ jobs:
             dist/**/*.dmg
             dist/**/*.zip
             dist/**/*.blockmap
-            dist/**/*.yml
+            dist/**/latest.yml
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

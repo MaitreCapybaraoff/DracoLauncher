@@ -8,7 +8,7 @@ mediaGitHubURL = "https://github.com/MaitreCapybaraoff/DracoLauncher"
 mediaXURL = "#"
 mediaInstagramURL = "#"
 mediaYouTubeURL = "https://www.youtube.com/@DracoMC_off"
-mediaDiscordURL = "discord.draco-smp.ovh"
+mediaDiscordURL = "https://discord.draco-smp.ovh"
 
 [ejs.settings]
 sourceGithubLink = "https://github.com/MaitreCapybaraoff/DracoLauncher"

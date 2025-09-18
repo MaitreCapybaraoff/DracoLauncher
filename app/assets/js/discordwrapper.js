@@ -25,7 +25,7 @@ exports.initRPC = function(genSettings, servSettings, initialDetails = Lang.quer
     }
 
     client.on('ready', () => {
-        logger.info('Discord RPC Connected')
+        logger.info('Discord RPC Connecté')
         client.setActivity(activity)
     })
     

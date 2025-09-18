@@ -1,6 +1,6 @@
 appId: 'dracolauncher'
 productName: 'Draco-Launcher'
-artifactName: '${productName}-setup-${version}.${ext}'
+artifactName: '${productName}-setup-${os}-${arch}.${ext}'
 
 copyright: 'Copyright © 2025 DracoSMP'
 
@@ -33,7 +33,7 @@ mac:
       arch:
         - 'x64'
         - 'arm64'
-  artifactName: '${productName}-setup-${version}-${arch}.${ext}'
+  artifactName: '${productName}-setup-${os}-${arch}.${ext}'
   category: 'public.app-category.games'
 
 # Linux Configuration

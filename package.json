@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "productName": "Draco Launcher",
   "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/), moddified by: DracoMC",
+  "author": "DracoMC (https://github.com/MaitreCapybaraoff)",
   "license": "MIT",
   "homepage": "https://github.com/MaitreCapybaraoff",
   "bugs": {
@@ -18,7 +18,7 @@
     "dist:mac": "npm run dist -- -m",
     "dist:linux": "npm run dist -- -l",
     "lint": "eslint --config .eslintrc.json .",
-    "icon": "node build.js --icon=https://draco-smp.ovh/icon/icon.png"
+    "icon": "node build.js --icon=https://draco-smp.ovh/storage/img/icon.png"
   },
   "engines": {
     "node": "20.x.x"

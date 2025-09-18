@@ -2,7 +2,7 @@ appId: 'dracolauncher'
 productName: 'Draco-Launcher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
-copyright: 'Copyright © 2018-2024 Daniel Scalzi, DracoMC'
+copyright: 'Copyright © 2025 DracoSMP'
 
 asar: true
 compression: 'maximum'
@@ -39,8 +39,8 @@ mac:
 # Linux Configuration
 linux: 
   target: 'AppImage'
-  maintainer: 'DracoMC'
-  vendor: 'DracoMC'
+  maintainer: 'DracoSMP'
+  vendor: 'DracoSMP'
   synopsis: 'Modded Minecraft Launcher'
   description: 'Custom launcher which allows users to join the DracoSMP server'
   category: 'Game'

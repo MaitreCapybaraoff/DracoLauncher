@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Check out Git repository
-        uses: actions/checkout@v4 # dernière version
+        uses: actions/checkout@v4
 
       - name: Set up Node
         uses: actions/setup-node@v4
@@ -74,11 +74,12 @@ jobs:
           draft: false
           prerelease: false
           files: |
-            dist/**/Draco-Launcher-setup-${{ steps.package-version.outputs.version }}.exe
-            dist/**/*.AppImage
-            dist/**/*.dmg
-            dist/**/*.zip
+            dist/**/Draco-Launcher-setup-win-x64.exe
+            dist/**/Draco-Launcher-setup-linux-x86_64.AppImage
+            dist/**/Draco-Launcher-setup-mac-x64.dmg
             dist/**/*.blockmap
+            dist/**/latest-linux.yml
+            dist/**/latest-mac.yml
             dist/**/latest.yml
 
         env:
